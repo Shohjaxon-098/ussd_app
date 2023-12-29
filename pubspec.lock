@@ -62,6 +62,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_carousel_slider:
+    dependency: "direct main"
+    description:
+      name: flutter_carousel_slider
+      sha256: "4cd0691b98ebbf8b40361e01779b3a211002c963d3709630e775fba699d3b821"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
+  flutter_carousel_widget:
+    dependency: "direct main"
+    description:
+      name: flutter_carousel_widget
+      sha256: "37b9e55e4cafffe358152b016db24153e756152aa07c4214cfe6ee902cd69a01"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -186,3 +202,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.2 <4.0.0"
+  flutter: ">=2.0.0"

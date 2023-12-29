@@ -1,4 +1,3 @@
-import 'package:ussd_app/utils/constants/app_images.dart';
 import 'package:ussd_app/utils/tools/file_importants.dart';
 
 class HomePage extends StatelessWidget {
@@ -36,7 +35,11 @@ class HomePage extends StatelessWidget {
                   Expanded(
                     child: TabBarView(children: [
                       Container(
-                        child: Text("MobiUz"),
+                        height: height(context) * 0.9,
+                        color: Colors.red,
+                        child: Column(children: [
+                          FlutterCarousel(items: [1,2,3,4,5].map, options: CarouselOptions(height: 400,showIndicator: true,slideIndicator: CircularSlideIndicator()))
+                        ]),
                       ),
                       Container(
                         child: Text("Uzmobile"),
