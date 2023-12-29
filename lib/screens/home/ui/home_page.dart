@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
                         height: height(context) * 0.9,
                         color: Colors.red,
                         child: Column(children: [
-                          FlutterCarousel(items: [1,2,3,4,5].map, options: CarouselOptions(height: 400,showIndicator: true,slideIndicator: CircularSlideIndicator()))
+                          FlutterCarousel(items: [], options: CarouselOptions(height: 400,showIndicator: true,slideIndicator: CircularSlideIndicator()))
                         ]),
                       ),
                       Container(
